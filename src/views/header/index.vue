@@ -6,6 +6,7 @@
         alt=""
         class="logo"
       />
+      
       <div class="header_content">
         <div class="header_content_title" v-for="(item, index) in titleList" :key="index">
           {{ item.title }}
